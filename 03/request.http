@@ -1,0 +1,6 @@
+GET http://localhost:8000/imoveis
+###
+
+GET http://localhost:8000/imoveis/2
+###
+
