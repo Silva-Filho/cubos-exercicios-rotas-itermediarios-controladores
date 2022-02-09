@@ -1,0 +1,21 @@
+GET http://localhost:8000/
+###
+
+GET http://localhost:8000/remover?indice=2
+###
+
+GET http://localhost:8000/remover?indice=7
+###
+
+GET http://localhost:8000/adicionar?nome=luiza&indice=5
+###
+
+GET http://localhost:8000/adicionar?nome=luiza
+###
+
+GET http://localhost:8000/adicionar?nome=luiza&indice=2
+###
+
+GET http://localhost:8000/adicionar?nome=luiza&indice=80
+###
+
