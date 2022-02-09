@@ -1,0 +1,11 @@
+GET http://localhost:3000/somar?num1=10&num2=5
+###
+
+GET http://localhost:3000/subtrair?num1=10&num2=5
+###
+
+GET http://localhost:3000/multiplicar?num1=10&num2=5
+###
+
+GET http://localhost:3000/dividir?num1=10&num2=5
+###
