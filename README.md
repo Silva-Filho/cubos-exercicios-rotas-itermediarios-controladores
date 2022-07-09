@@ -1,8 +1,6 @@
-# Back-end | Rotas, Intermediarios e Controladores
-
 ## Exercícios
 
-1. Calculadora Online
+***1. Calculadora Online***
 
 Neste exercício devemos criar um servidor com 4 rotas GET para executar as 4 operações matemáticas básicas (somar, subtrair, multiplicar, dividir)
 Você deverá criar um servidor como mostrado na aula contendo as seguintes rotas GET
@@ -13,7 +11,7 @@ Multiplição: /multiplicar
 Divizão: /dividir
 Todas as rotas devem esperar dois parâmetros query **num1** e **num2** e retornar a resposta da operação.
 
-### Exemplos de requisições e respostas:
+#### Exemplos de requisições e respostas:
 
 requisição: /somar?num1=10&num2=5 resposta: 15
 
@@ -25,7 +23,7 @@ requisição: /dividir?num1=10&num2=5 resposta: 2
 
 ---
 
-2. RoundControllerEvolution.com
+***2. RoundControllerEvolution.com***
 
 Para este exercício deverá ser criado um servidor com nodejs para controlar rodadas de um jogo. Dado um array de nomes de jogadores que estará no script do servidor, deveremos a cada requisição ao servidor, responder com uma mensagem dizendo de quem é a vez de jogar.
 
@@ -134,7 +132,7 @@ O índice informado (80) não existe no array. Novo jogador não adicionado.
 
 ---
 
-3. Consulta de imóveis
+***3. Consulta de imóveis***
 
 Neste exercício deverá ser criado um servidor para consulta de imóveis pré cadastrados. Este servidor deverá ser feito em nodejs e deverá ser acessado através do endereço http://localhost:8000. A lista pré cadastrada de imóveis no servidor deverá ser um array de objetos onde cada objeto representará um imóvel e possuirá propriedades que definem o imóvel conforme exemplo abaixo:
 
