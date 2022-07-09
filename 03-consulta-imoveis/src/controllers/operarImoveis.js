@@ -11,4 +11,3 @@ export const mostrarImovelEscolhido = (req, res) => {
 
     return res.send(imovelEncontrado);
 };
-
