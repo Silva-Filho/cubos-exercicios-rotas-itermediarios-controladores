@@ -29,10 +29,3 @@ export const dividir = (req, res) => {
 
     res.send(`resposta: ${divisao}`);
 };
-
-/* module.exports = {
-    somar,
-    subtrair,
-    multiplicar,
-    dividir
-}; */
